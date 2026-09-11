@@ -1,12 +1,39 @@
-# TODO_BOOK_AUTHOR_NAME_YEAR
+# Matt Groening - Arbeit ist die Hölle (1990)
 
-![TODO_BOOK_AUTHOR_NAME_YEAR](cover.avif)
+![Matt Groening - Arbeit ist die Hölle (1990)](cover.avif)
 
-TODO_BOOK_STORE_URL
+https://www.amazon.de/dp/3810508292
 
 <blockquote>
 
-TODO_BOOK_STORE_DESCRIPTION
+Arbeit ist die Hölle
+
+Matt Groening (Autor)
+
+Ist Arbeit die Hölle?
+
+"SIMPSONS"-Erfinder Matt Groening unternimmt
+im zweiten Sammelband seines wegweisenden Comic-strips "LIFE IN HELL"
+einen Streifzug durch die Niederungen des Arbeitslebens,
+die Frustrationen des Büroalltags und das Fegefeuer des Kollegenspotts.
+
+Vom ersten Kapitel "Ran an den Feind!"
+über die Lektion "Wie man täglich acht Stunden totschlägt und trotzdem seinen Job behält"
+bis hin zur Bestands-aufnahme "So so, man hat dir gekündigt"
+erweist sich "ARBEIT IST DIE HÖLLE" als unverzichtbarer Ratgeber
+für jeden Berufstätigen und solche die es werden wollen.
+
+Noch ungezügelter als in "DIE SIMPSONS"
+lässt Matt Groening in "LIFE IN HELL"
+seinem Sinn für bissige, schwarzhumorige Alltagssatire freien Lauf.
+
+- Herausgeber: Krüger Verlag
+- Erscheinungstermin: 1990
+- Auflage: 1.
+- Sprache: Deutsch
+- Seitenzahl der Print-Ausgabe: 48 Seiten
+- ISBN-10: 3810508292
+- ISBN-13: 9783810508294
 
 </blockquote>
 
@@ -20,11 +47,11 @@ TODO_BOOK_TORRENT_MAGNET_LINK
 
 ## mirrors
 
-- https://github.com/TODO_REPO_OWNER_USERNAME/TODO_REPO_NAME
-- http://gg6zxtreajiijztyy5g6bt5o6l3qu32nrg7eulyemlhxwwl6enk6ghad.onion/TODO_REPO_OWNER_USERNAME/TODO_REPO_NAME
-- http://git.dkforestseeaaq2dqz2uflmlsybvnq2irzn4ygyvu53oazyorednviid.onion/TODO_REPO_OWNER_USERNAME/TODO_REPO_NAME
-- http://it7otdanqu7ktntxzm427cba6i53w6wlanlh23v5i3siqmos47pzhvyd.onion/TODO_REPO_OWNER_USERNAME/TODO_REPO_NAME
-- http://gdatura24gtdy23lxd7ht3xzx6mi7mdlkabpvuefhrjn4t5jduviw5ad.onion/TODO_REPO_OWNER_USERNAME/TODO_REPO_NAME
+- https://github.com/milahu/matt-groening-arbeit-ist-die-hoelle-1990
+- http://gg6zxtreajiijztyy5g6bt5o6l3qu32nrg7eulyemlhxwwl6enk6ghad.onion/milahu/matt-groening-arbeit-ist-die-hoelle-1990
+- http://git.dkforestseeaaq2dqz2uflmlsybvnq2irzn4ygyvu53oazyorednviid.onion/milahu/matt-groening-arbeit-ist-die-hoelle-1990
+- http://it7otdanqu7ktntxzm427cba6i53w6wlanlh23v5i3siqmos47pzhvyd.onion/milahu/matt-groening-arbeit-ist-die-hoelle-1990
+- http://gdatura24gtdy23lxd7ht3xzx6mi7mdlkabpvuefhrjn4t5jduviw5ad.onion/milahu/matt-groening-arbeit-ist-die-hoelle-1990
 
 
 

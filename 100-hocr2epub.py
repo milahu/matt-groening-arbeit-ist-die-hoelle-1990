@@ -79,28 +79,40 @@ args += [
     "--text-format", "html",
     # TODO? move these config items to 000-config.py
     "--doc-modified", doc_modified,
-]
-
-
-todo_args = [
-    "--doc-title", "",
-    "--doc-subtitle", "",
+    "--doc-title", "Arbeit ist die Hölle",
+    # "--doc-subtitle", "",
     # "--doc-subject", "",
-    "--doc-date", "2025",
+    "--doc-date", "1990",
     "--doc-edition", "1",
-    "--doc-extent", "123 pages",
-    "--color-image-pages", "124,125",
-    "--doc-author", "",
+    "--doc-extent", "48 pages",
+    "--color-image-pages", "49-",
+    "--doc-author", "Matt Groening",
     # "--doc-introducer", "",
     # "--doc-contributor", "",
     # "--doc-translator", "",
-    "--doc-publisher", "",
+    "--doc-publisher", "Wolfgang Krüger Verlag",
     "--doc-language", "de", # german
     # "--doc-language", "en", # english
-    "--doc-isbn", "0000000000000",
-    "--doc-cover-image", "072-deskew-fix-page-size/999.tiff",
-    "--canonical-url-base", "https://TODO_REPO_OWNER_USERNAME.github.io/TODO_REPO_NAME/",
+    "--doc-isbn", "9783810508294",
+    "--doc-cover-image", "0663-level/049.tiff",
+    "--canonical-url-base", "https://milahu.github.io/matt-groening-arbeit-ist-die-hoelle-1990/",
     "--doc-description", """
+Ist Arbeit die Hölle?
+
+"SIMPSONS"-Erfinder Matt Groening unternimmt
+im zweiten Sammelband seines wegweisenden Comic-strips "LIFE IN HELL"
+einen Streifzug durch die Niederungen des Arbeitslebens,
+die Frustrationen des Büroalltags und das Fegefeuer des Kollegenspotts.
+
+Vom ersten Kapitel "Ran an den Feind!"
+über die Lektion "Wie man täglich acht Stunden totschlägt und trotzdem seinen Job behält"
+bis hin zur Bestands-aufnahme "So so, man hat dir gekündigt"
+erweist sich "ARBEIT IST DIE HÖLLE" als unverzichtbarer Ratgeber
+für jeden Berufstätigen und solche die es werden wollen.
+
+Noch ungezügelter als in "DIE SIMPSONS"
+lässt Matt Groening in "LIFE IN HELL"
+seinem Sinn für bissige, schwarzhumorige Alltagssatire freien Lauf.
 """,
 ]
 

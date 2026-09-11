@@ -1,6 +1,6 @@
 # TODO set config values
 
-num_pages = 592
+num_pages = 48
 
 color_pages = []
 
@@ -14,12 +14,12 @@ max_scan_width_mm = 215.88
 max_scan_height_mm = 355.567
 
 # physical page size (before unbinding)
-page_width_mm = 124
-page_height_mm = 190
+page_width_mm = 226
+page_height_mm = 226
 
 # physical page width after unbinding
 # unbinding removes a small strip (about 5 mm width) from the inside edge
-unbinded_page_width_mm = page_width_mm - 5 # 5 mm width was removed
+unbinded_page_width_mm = 213
 
 # TODO use 4 unbinded widths:
 # 1. top width of the first page
@@ -27,10 +27,10 @@ unbinded_page_width_mm = page_width_mm - 5 # 5 mm width was removed
 # 3. bottom width of the first page
 # 4. bottom width of the last page
 # for simplicity, we can assume linear gradients between these widths
-unbinded_page_width_front_top_mm = unbinded_page_width_mm + 0
-unbinded_page_width_front_bottom_mm = unbinded_page_width_mm + 0
-unbinded_page_width_back_top_mm = unbinded_page_width_mm + 0
-unbinded_page_width_back_bottom_mm = unbinded_page_width_mm + 0
+unbinded_page_width_front_top_mm = 213.5
+unbinded_page_width_front_bottom_mm = 214
+unbinded_page_width_back_top_mm = 212
+unbinded_page_width_back_bottom_mm = 212.5
 
 # which physical page edge is fed first into the document scanner?
 # that edge becomes the scan top edge
@@ -43,12 +43,13 @@ unbinded_page_width_back_bottom_mm = unbinded_page_width_mm + 0
 # scan_top_edge = "inside"
 # scan_top_edge = "top"
 # scan_top_edge = "bottom"
-scan_top_edge = "inside"
+scan_top_edge = "top"
 
 # Less clearance than this makes the outside edge unreliable for detection.
 outside_edge_detection_min_margin_mm = 2.0
 
 # add margin for 065-remove-page-borders.py
+# TODO rename to scan_margin_mm
 scan_margin = 10
 
 # no! do this only in 040-scan-pages.py
@@ -175,8 +176,7 @@ image_viewer = "feh"
 
 fill_white_pages_lightness_file = "0683-lightness.txt"
 
-# 099.999270 325.tiff # white
-# 099.792250 001.tiff # non-white
+# 099.076603 002.tiff # text
 fill_white_pages_white_lightness_threshold = 99.99 / 100 # 99.99%
 
 
@@ -187,6 +187,7 @@ deskew_lightness_file = "0683-lightness.txt"
 
 # Threshold to consider a page "white" (mean lightness close to 1)
 # deskew_white_lightness_threshold = 99.99 / 100 # 99.99%
+# 099.076603 002.tiff # text
 deskew_white_lightness_threshold = 99.95 / 100 # 99.95%
 # deskew_white_lightness_threshold = 99.90 / 100 # 99.90%
 
@@ -198,10 +199,6 @@ deskew_black_lightness_threshold = 0.05 / 100 # 0.05%
 # Threshold to consider a page "dark" (black page with white text)
 # white page with lots of black text can have 0.80
 deskew_dark_lightness_threshold = 25 / 100 # 25%
-
-# dont deskew these pages
-# automatic deskew can fail on pages with images and text
-deskew_ignore_pages = []
 
 
 
